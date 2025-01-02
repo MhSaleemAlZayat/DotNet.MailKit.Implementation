@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>ddff9b31-c971-4b25-825d-b12e5760ddf6</UserSecretsId>
+    <RootNamespace>EmailSenderProject</RootNamespace>
+    <AssemblyName>EmailSenderProject</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="8.0.2" />
+	<PackageReference Include="NETCore.MailKit" Version="2.0.3" />
+  </ItemGroup>
+
+</Project>

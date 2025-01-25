@@ -3,5 +3,5 @@
 public class UserRegistrationConfirmationViewModel 
 {
     public string Url { get; set; }
-    public string MinistryLogo { get; set; } = "cid:ministryLogoUrl";
+    public string Logo { get; set; } = "cid:LogoUrl";
 }
